@@ -2,6 +2,7 @@ let files = [
   "slf_oh-its-omori",
   "slf_cross-the-road",
   "slf_magic-tiles",
+  "slf_block-blast",
   "slf_wow-it-is-deltarune"
 ];
 function generateAllSections() {
