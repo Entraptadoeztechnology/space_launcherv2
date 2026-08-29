@@ -1,5 +1,6 @@
 let files = [
-  "slfoh_its_omori"
+  "slf_oh-its-omori",
+  "slf_wow-its-deltarune"
 ];
 function generateAllSections() {
   try {
@@ -51,8 +52,8 @@ function generateAllSections() {
 
   files.forEach((file) => {
     const lower = file.toLowerCase();
-    if (lower.startsWith("slf")) {
-      const aftercl = lower.substring(3);
+    if (lower.startsWith("slf_")) {
+      const aftercl = lower.substring(4);
       if (aftercl.length > 0) {
         const firstChar = aftercl[0].toUpperCase();
         if (filesByChar[firstChar]) {
