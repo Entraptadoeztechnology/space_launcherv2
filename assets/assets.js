@@ -1,6 +1,6 @@
 // LAST GAME IS dungeons and degenerate gamble
 let files = [
-  
+  "slfoh_its_omori"
 ];
 function generateAllSections() {
   try {
