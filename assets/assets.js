@@ -5,6 +5,7 @@ let files = [
   "slf_block-blast",
   "slf_yan-sim",
   "slf_bowmaster",
+  "slf_slice-it-all",
   "slf_deltarune"
 ];
 function generateAllSections() {
