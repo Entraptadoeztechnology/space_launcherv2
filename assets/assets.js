@@ -92,7 +92,7 @@ function generateAllSections() {
           const encoded = encodeURIComponent(normalized);
 
           fetch(
-            `https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/${encoded}?t=${Date.now()}`,
+            `https://git.entraptadoeztech.nya.je/space_launcher/${encoded}?t=${Date.now()}`,
           )
             .then((response) => response.text())
             .then((text) => {
