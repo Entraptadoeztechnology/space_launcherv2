@@ -1,4 +1,3 @@
-// LAST GAME IS dungeons and degenerate gamble
 let files = [
   "slfoh_its_omori"
 ];
@@ -92,7 +91,7 @@ function generateAllSections() {
           const encoded = encodeURIComponent(normalized);
 
           fetch(
-            `https://git.entraptadoeztech.nya.je/space_launcher/${encoded}?t=${Date.now()}`,
+            `https://git.entraptadoeztech.nya.je/space_launcher/files/${encoded}?t=${Date.now()}`,
           )
             .then((response) => response.text())
             .then((text) => {
