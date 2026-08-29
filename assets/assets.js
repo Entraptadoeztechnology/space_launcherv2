@@ -3,6 +3,7 @@ let files = [
   "slf_cross-the-road",
   "slf_magic-tiles",
   "slf_block-blast",
+  "slf_yan-sim",
   "slf_deltarune"
 ];
 function generateAllSections() {
