@@ -1,6 +1,6 @@
 let files = [
   "slf_oh-its-omori",
-  "slf_wow-its-deltarune"
+  "slf_wow-it-is-deltarune"
 ];
 function generateAllSections() {
   try {
